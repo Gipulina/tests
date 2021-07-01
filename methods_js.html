@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method Tests</title>
+    
+    <script> 
+
+        //Testeando Métodos.
+        var frase = "Aveces hay que saber perder para poder ganar"
+        var lista = "Banana, Manzana, Pera";
+        var hola = lista;
+
+//empieza en 0
+        document.write("La frase es '" + frase +"'. </br>");    
+        document.write("La cantidad de caracteres es " + frase.length + "</br>");
+        document.write("La tercer palabra de la frase es '"+ frase.slice(10,14) + "'</br>"); 
+//el 2do caracter indica el length
+        document.write(lista.substr(0,3)+ "</br>");
+        document.write(lista.substr(7,8)+ "</br>");
+        document.write(lista.substr(17,4)+ "</br>");
+        document.write("La tercer palabra 'perder' aparece en el caracter "+ frase.search("perder") + "'</br>");
+        document.write("¿Incluye la palabra 'cantidad'? " + frase.includes("cantidad")+ "</br>");
+        document.write("¿Incluye la palabra 'poder'? " + frase.includes("poder")+ "</br>");
+
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
